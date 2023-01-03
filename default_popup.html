@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Odesli for Bandcamp - Extension Options</title>
+  <style>  
+    body {
+      padding: 8px;
+      font-family: font-family: "Noto Sans Hebrew", "Noto Sans", Arial,  sans-serif !important;
+    }
+    .donation {
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid #cdcdcd;
+      font-size: 16px;
+      text-align: center;
+    }
+    .donation a {
+      display: block;
+      margin-top: 6px;
+    }
+    [type="number"]::-webkit-inner-spin-button,
+    [type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    #hebrew_font_size {
+      height: 20px;
+      border: solid 1px lightgray;
+      padding: 7px 12px 8px;
+      margin: 0px 4px;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+    }
+    .quantity-button {
+      font-size: 25px !important;
+    }
+  </style>
+  <link type="text/css" rel="stylesheet" href="/meterial.css">
+</head>
+<body>
+  <h3>Hebrew font size:</h3>
+  <div class="quantity">
+    <button class="matter-button-outlined quantity-button quantity-down">-</button>
+    <label>
+      <input type="number" min="14" max="24" placeholder=" " value="16" id="hebrew_font_size" disabled />    
+    </label>
+    <button class="matter-button-outlined quantity-button quantity-up">+</button>
+  </div>
+  <h3>Hebrew font family:</h3>
+  <div style="margin-top: 10px;">
+    <label class="matter-radio">
+      <input type="radio" name="hebrew_font" id="hebrew_noto">
+      <span>Noto Sans Hebrew</span>
+    </label><label class="matter-radio">
+      <input type="radio" name="hebrew_font" id="hebrew_alef">
+      <span>Alef</span>
+    </label><label class="matter-radio">
+      <input type="radio" name="hebrew_font" id="hebrew_open">
+      <span>Open Sans</span>
+    </label><label class="matter-radio">
+      <input type="radio" name="hebrew_font" id="hebrew_rubik">
+      <span>Rubik</span>
+    </label><label class="matter-radio">
+      <input type="radio" name="hebrew_font" id="hebrew_frank">
+      <span>Frank Ruhl Libre</span>
+    </label><label class="matter-radio">
+      <input type="radio" name="hebrew_font" id="hebrew_noto_serif">
+      <span>Noto Serif Hebrew</span>
+    </label><label class="matter-radio">
+      <input type="radio" name="hebrew_font" id="hebrew_david">
+      <span>David Libre</span>
+    </label>
+  </div>
+  <div class="donation">
+    If you like this tool, please
+    <a href="https://www.paypal.com/donate/?hosted_button_id=2PF727DXU8LQA">
+      <img src="donate-button.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" width="278" height="79" />
+    </a>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

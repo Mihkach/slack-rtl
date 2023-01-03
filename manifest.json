@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Hebrew support for Slack. RTL",
+  "description": "Right To Left support for Slack. Hebrew version.",
+  "version": "0.8",
+  "permissions": ["storage"],
+  "action": {
+    "default_icon": "icon16.png",
+    "default_popup": "default_popup.html"
+  },
+  "options_ui": {
+    "page": "default_popup.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.slack.com/*"],
+      "js": ["jquery.min.js", "slack-rtl.js"],
+      "css": ["slack-rtl.css"]
+    }
+  ]
+}

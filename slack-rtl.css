@@ -1,0 +1,326 @@
+@font-face {
+  font-family: "Noto Sans Hebrew";
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Regular.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Regular.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Regular.ttf)
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Hebrew";
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Bold.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Bold.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanshebrew/v4/NotoSansHebrew-Bold.ttf)
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alef";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alef/v21/FeVfS0NQpLYgnjdRCrNy1bRbkg.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Alef";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alef/v21/FeVQS0NQpLYglo50H5xQ2J5hm25mww.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4iaVIUwaEQbjB_mQ.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v23/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v23/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/frankruhllibre/v15/j8_w6_fAw7jrcalD7oKYNX0QfAnPW7Ll4brkiY-xBg.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/frankruhllibre/v15/j8_w6_fAw7jrcalD7oKYNX0QfAnPW7Ll4brkiY-xBg.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Noto Serif Hebrew";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notoserifhebrew/v20/k3k5o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbD-VBM2jVkL3Lr.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "Noto Serif Hebrew";
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notoserifhebrew/v20/k3k5o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbD-VBM2jVkL3Lr.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: "David Libre";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/davidlibre/v13/snfus0W_99N64iuYSvp4W8l54J-xYj-Zc5Y.woff2)
+    format("woff2");
+}
+body[class^="hebrew_"] .hebrew .p-rich_text_block {
+  font-size: 16px;
+}
+.hebrew_font_size_14 .hebrew,
+.hebrew_font_size_14 .hebrew .p-rich_text_block {
+  font-size: 14px !important;
+}
+.hebrew_font_size_15 .hebrew,
+.hebrew_font_size_15 .hebrew .p-rich_text_block {
+  font-size: 15px !important;
+}
+.hebrew_font_size_16 .hebrew,
+.hebrew_font_size_16 .hebrew .p-rich_text_block {
+  font-size: 16px !important;
+}
+.hebrew_font_size_17 .hebrew,
+.hebrew_font_size_17 .hebrew .p-rich_text_block {
+  font-size: 17px !important;
+}
+.hebrew_font_size_18 .hebrew,
+.hebrew_font_size_18 .hebrew .p-rich_text_block {
+  font-size: 18px !important;
+}
+.hebrew_font_size_19 .hebrew,
+.hebrew_font_size_19 .hebrew .p-rich_text_block {
+  font-size: 19px !important;
+}
+.hebrew_font_size_20 .hebrew,
+.hebrew_font_size_20 .hebrew .p-rich_text_block {
+  font-size: 20px !important;
+}
+.hebrew_font_size_21 .hebrew,
+.hebrew_font_size_21 .hebrew .p-rich_text_block {
+  font-size: 21px !important;
+}
+.hebrew_font_size_22 .hebrew,
+.hebrew_font_size_22 .hebrew .p-rich_text_block {
+  font-size: 22px !important;
+}
+.hebrew_font_size_23 .hebrew,
+.hebrew_font_size_23 .hebrew .p-rich_text_block {
+  font-size: 23px !important;
+}
+.hebrew_font_size_24 .hebrew,
+.hebrew_font_size_24 .hebrew .p-rich_text_block {
+  font-size: 24px !important;
+}
+.hebrew_noto .hebrew,
+.partofhebrew {
+  font-family: "Noto Sans Hebrew", "Noto Sans", Slack-Lato, Slack-Fractions,
+    appleLogo, sans-serif !important;
+}
+.hebrew_alef .hebrew {
+  font-family: "Alef", Slack-Lato, Slack-Fractions, appleLogo, sans-serif !important;
+}
+.hebrew_open .hebrew {
+  font-family: "Open Sans", Slack-Lato, Slack-Fractions, appleLogo, sans-serif !important;
+}
+.hebrew_rubik .hebrew {
+  font-family: "Rubik", Slack-Lato, Slack-Fractions, appleLogo, sans-serif !important;
+}
+.hebrew_frank .hebrew {
+  font-family: "Frank Ruhl Libre", Slack-Lato, Slack-Fractions, appleLogo,
+    sans-serif !important;
+}
+.hebrew_frank .hebrew {
+  font-family: "Frank Ruhl Libre", Slack-Lato, Slack-Fractions, appleLogo,
+    sans-serif !important;
+}
+.hebrew_noto_serif .hebrew {
+  font-family: "Noto Serif Hebrew", Slack-Lato, Slack-Fractions, appleLogo,
+    sans-serif !important;
+}
+.hebrew_david .hebrew {
+  font-family: "David Libre", Slack-Lato, Slack-Fractions, appleLogo, sans-serif !important;
+}
+.c-virtual_list__item.hebrew .p-rich_text_block,
+.hebrew.ql-editor,
+.c-focus_manage_list__item.hebrew .p-rich_text_block,
+.c-focus_manage_list__item.hebrew .c-search_message__body,
+.c-advanced_search_modal__keyword-input.hebrew {
+  direction: rtl;
+  text-align: right;
+}
+
+.hebrew .c-mrkdwn__broadcast--mention,
+.hebrew .c-mrkdwn__user_group--link,
+.hebrew .c-mrkdwn__user_group--mention,
+.hebrew .c-timestamp__label,
+.hebrew .c-message__sender {
+  display: inline-block;
+  direction: ltr !important;
+}
+.hebrew.c-message_attachment,
+.hebrew .c-message_kit__gutter,
+.hebrew .c-message_group {
+  direction: rtl;
+}
+.p-message_input_field {
+  padding-right: 43px !important;
+}
+.c-texty_input .hebrew.ql-editor ol > li:before,
+.c-virtual_list__item.hebrew .p-rich_text_block ol > li:before,
+.c-focus_manage_list__item.hebrew .p-rich_text_block ol > li:before,
+.c-texty_input .ql-editor.hebrew ul > li:before,
+.c-virtual_list__item.hebrew .p-rich_text_block ul > li:before,
+.c-focus_manage_list__item.hebrew .p-rich_text_block ul > li:before {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.c-texty_input .hebrew.ql-editor ol > li,
+.c-virtual_list__item.hebrew .p-rich_text_block ol > li,
+.c-focus_manage_list__item.hebrew .p-rich_text_block ol > li,
+.c-texty_input .hebrew.ql-editor ul:not([data-checked]) > li,
+.c-virtual_list__item.hebrew .p-rich_text_block ul:not([data-checked]) > li,
+.c-focus_manage_list__item.hebrew
+  .p-rich_text_block
+  ul:not([data-checked])
+  > li {
+  margin-left: 0px;
+}
+.hebrew blockquote {
+  padding-right: 16px !important;
+}
+.hebrew blockquote:before {
+  right: 0;
+}
+.hebrew .c-message__actions {
+  left: 17px;
+  right: auto !important;
+}
+.hebrew .c-search_message__actions {
+  left: 0 !important;
+  right: auto !important;
+}
+.hebrew .c-card_container__actions--position_inset {
+  left: 12px !important;
+  right: auto !important;
+}
+.hebrew .c-message_kit__gutter__left,
+.hebrew .c-message_kit__labels__text,
+.hebrew .c-message_kit__labels__icon,
+.hebrew .c-search_message__gutter {
+  margin-right: 0px;
+  margin-left: 8px;
+}
+.hebrew .c-search_message__gutter {
+  float: right;
+  padding-right: 0px;
+  padding-left: 8px;
+}
+.hebrew .c-message_kit__labels__label {
+  direction: rtl;
+  padding-right: 20px;
+  padding-left: 0px;
+}
+.hebrew .c-message_kit__labels__icon,
+.hebrew
+  .c-message_kit__gutter--compact
+  .p-message_pane_message__compact_timestamp {
+  text-align: left;
+}
+.hebrew.c-message_attachment .c-message_attachment__author_icon {
+  margin-right: 0px;
+  margin-left: 8px;
+}
+.hebrew
+  .c-message_kit__gutter--compact
+  .c-message_kit__gutter__right
+  .c-message_kit__indent {
+  padding-right: 8px;
+}
+.hebrew .c-message_kit__gutter--compact .c-message__sender {
+  margin-right: -8px;
+  margin-left: 0px;
+}
+.hebrew .c-message_kit__thread_message .c-message_kit__gutter__right {
+  padding-left: 0;
+  padding-right: 8px;
+}
+.hebrew .p-drafts_page__draft_header {
+  flex-direction: row-reverse;
+}
+.c-search__input_box__container
+  .c-basic_container__body.hebrew
+  .c-search__input_box__icon {
+  margin-left: 12px;
+  margin-right: 28px;
+}
+.hebrew .c-reaction .c-emoji:not(:last-child) {
+  margin-right: 0px;
+  margin-left: 2px;
+}
+.hebrew .c-message__editor,
+.hebrew .p-deprecated_channel_name,
+.hebrew .c-member_slug--link {
+  direction: ltr !important;
+}
+.hebrew .c-message__reply_count,
+.hebrew .c-message__reply_bar_last_reply {
+  margin-right: 0px;
+  margin-right: 3px;
+  direction: ltr;
+}
